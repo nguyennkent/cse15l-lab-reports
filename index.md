@@ -1,3 +1,3 @@
 Hello World!
 
-[Lab Report 1](Week2Lab.md)
+[Lab Report 1]([Lab Report 1](https://nguyennkent.github.io/cse15l-lab-reports/Week2Lab.html)

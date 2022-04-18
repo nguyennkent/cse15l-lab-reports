@@ -7,25 +7,29 @@
 # Remotely Connecting
 ![Remote](RemoteConnect.png)
 - I am on MacOS so I did not have to install OpenSSH, but I did have to prepare my course-specific account for CSE 15L by resetting the password.
-- I connected to the server through my local device with $ssh cs15lsp22akz@ieng6.ucsd.edu.
+- I connected to the server through my local device with `ssh cs15lsp22akz@ieng6.ucsd.edu`
 - I had to answer some simple questions and ended up getting connected as shown in the screenshot above.
 
 # Trying Some Commands
-![Commands]()
-- I began with using the command cd
-- CD allows the user to change directories.
+![Commands](Commands.png)
+- I began with trying out the command `cd ~`, which allows the user to change their working directory.
+- I then tried out two commands `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lsp22/public/hello.txt`, but my permission was denied.
+- he first command allows the user to copy files or directories, while the second command allows the user to concatenate files.
+- I also tried `ls` which is a command that lists files.
 
 # Moving Files with scp
 ![Moving](Moving.png)
-- Created a file called WhereAmI.java
-- Moved the file from my local device to the server.
+- Created a file called WhereAmI.java which prints out the information of the User's file pertaining to their OS.
+- I then moved the file to the local file into the server with the command `scp WhereAmI.java cs15lsp22akz@ieng6.ucsd.edu:~/`
 
 # Setting an SSH Key
-![SSH](SSH.png)
-- Created an SSH Key for my device.
-- Able to login without a password.
+![SSHKey](SSHKey.png)
+- Created an SSH Key for my device with command `ssh-keygen`
+
+![SSHLogin](SSHLogin.png)
+- Logged into server with password and used command `mkdir.ssh`. Then back on my client I used the command `scp /Users/Kent/.ssh/id_rsa.pub cs15lsp22akz@ieng6.ucsd.edu:~/.ssh/authorized_keys` which then allowed me to login with the usual 'ssh' command without a password.
 
 # Optimizing Remote Running
-![Optimize](Optimize.png)
+![Optimize]()
 - Able to edit and run WhereAmI.java quicker without entering in a password each time.
 - Saved ~10 seconds.

@@ -11,7 +11,7 @@
 - I had to answer some simple questions and ended up getting connected as shown in the screenshot above.
 
 # Trying Some Commands
-![Commands](Commands.png)
+![Commands]()
 - I began with using the command cd
 - CD allows the user to change directories.
 

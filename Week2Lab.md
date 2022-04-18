@@ -12,8 +12,10 @@
 
 # Trying Some Commands
 ![Commands]()
-- I began with using the command cd
-- CD allows the user to change directories.
+- I began with trying out the command 'cd ~', which allows the user to change their working directory.
+- I then tried out two commands 'cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/' and 'cat /home/linux/ieng6/cs15lsp22/public/hello.txt', but my permission was denied.
+- The first command allows the user to copy files or directories, while the second command allows the user to concatenate files.
+- I also tried ls which is a command that lists files.
 
 # Moving Files with scp
 ![Moving](Moving.png)

@@ -19,8 +19,8 @@
 
 # Moving Files with scp
 ![Moving](Moving.png)
-- Created a file called WhereAmI.java
-- Moved the file from my local device to the server.
+- Created a file called WhereAmI.java which prints out the information of the User's file pertaining to their OS.
+- I then moved the file to the local file into the server with the command 'scp WhereAmI.java cs15lsp22akz@ieng6.ucsd.edu:~/'
 
 # Setting an SSH Key
 ![SSH](SSH.png)

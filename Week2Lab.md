@@ -30,6 +30,7 @@
 - Logged into server with password and used command `mkdir.ssh`. Then back on my client I used the command `scp /Users/Kent/.ssh/id_rsa.pub cs15lsp22akz@ieng6.ucsd.edu:~/.ssh/authorized_keys` which then allowed me to login with the usual 'ssh' command without a password.
 
 # Optimizing Remote Running
-![Optimize]()
-- Able to edit and run WhereAmI.java quicker without entering in a password each time.
-- Saved ~10 seconds.
+![Optimize](ListFiles.png)
+- When I timed myself before, I took around 55 seconds to make the file, copy and list the files.
+- Now eding the file and then using the same command, `scp WhereAmI.java cs15lsp22akz@ieng6.ucsd.edu:~/`, following with using `ssh cs15lsp22akz@ieng6.uscd.edu "ls"` took me only 31 seconds.
+- Having to not enter in the password and adding the command after the login information allowed me to be more efficient and save time.

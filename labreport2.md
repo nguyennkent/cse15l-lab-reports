@@ -1,5 +1,5 @@
 
-# Code Change 1
+## Code Change 1
 ![Fix](Fix1.png)
 - Installing VS code was easy, simply navigated to the VS code website and then installed the program.
 - Attached is my VS code startup window.

@@ -5,7 +5,7 @@
 - Attached is my VS code startup window.
 
 # Code Change 2
-![Fix2](Fix 2.png)
+![Fix2](Fix2.png)
 - I am on MacOS so I did not have to install OpenSSH, but I did have to prepare my course-specific account for CSE 15L by resetting the password.
 - I connected to the server through my local device with `ssh cs15lsp22akz@ieng6.ucsd.edu`
 - I had to answer some simple questions and ended up getting connected as shown in the screenshot above.

@@ -2,19 +2,15 @@
 ## Bug + Code Change 1
 ![Bug1](Fail1.png)
 ![Fix](Fix1.png)
-- Installing VS code was easy, simply navigated to the VS code website and then installed the program.
-- Attached is my VS code startup window.
+- Above the fail inducing input is the `!` line of code that comes when inserting an image. The symptom causes the program to still take the image and print it out as if it was a URL. A simple fix was this was to check for an !.
 
 ## Bug + Code Change 2
 ![Bug2](Fail2.png)
 ![Fix2](Fix2.png)
-- I am on MacOS so I did not have to install OpenSSH, but I did have to prepare my course-specific account for CSE 15L by resetting the password.
-- I connected to the server through my local device with `ssh cs15lsp22akz@ieng6.ucsd.edu`
-- I had to answer some simple questions and ended up getting connected as shown in the screenshot above.
+- The fail inducing input is inputting a link without both () which gave an out of bounds bug. The symptom is the code that is trying to read the indexes after ( and ) which are out of bound.
 
 ## Bug + Code Change 3
+![Bug3](Fail3.png)
 ![Fix3](Fixx3.png)
-- I began with trying out the command `cd ~`, which allows the user to change their working directory.
-- I then tried out two commands `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lsp22/public/hello.txt`, but my permission was denied.
-- he first command allows the user to copy files or directories, while the second command allows the user to concatenate files.
-- I also tried `ls` which is a command that lists files.
+- The fail inducing input is simply not adding a link. The symptom is the code does not recognize no link is added and still prints out the bracket. Simply adding a `Please input a link` message and stopping the program instead of printing out `[]` was my idea of a fix.
+

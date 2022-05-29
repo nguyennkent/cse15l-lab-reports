@@ -4,5 +4,7 @@
 ![scpTest](scpTest.png)
 
 ## Setup Github Access from ieng6
+hello
+testing
 
 ## Copy whole directories with `scp -r`
